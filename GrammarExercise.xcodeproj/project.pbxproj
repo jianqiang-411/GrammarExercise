@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AF229C1785355F001E8315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF229B1785355F001E8315 /* UIKit.framework */; };
+		13AF229E1785355F001E8315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF229D1785355F001E8315 /* Foundation.framework */; };
+		13AF22A01785355F001E8315 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF229F1785355F001E8315 /* CoreGraphics.framework */; };
+		13AF22A61785355F001E8315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22A41785355F001E8315 /* InfoPlist.strings */; };
+		13AF22A81785355F001E8315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF22A71785355F001E8315 /* main.m */; };
+		13AF22AC1785355F001E8315 /* KZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF22AB1785355F001E8315 /* KZAppDelegate.m */; };
+		13AF22AE1785355F001E8315 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22AD1785355F001E8315 /* Default.png */; };
+		13AF22B01785355F001E8315 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22AF1785355F001E8315 /* Default@2x.png */; };
+		13AF22B21785355F001E8315 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22B11785355F001E8315 /* Default-568h@2x.png */; };
+		13AF22B51785355F001E8315 /* KZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF22B41785355F001E8315 /* KZFirstViewController.m */; };
+		13AF22B71785355F001E8315 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22B61785355F001E8315 /* first.png */; };
+		13AF22B91785355F001E8315 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22B81785355F001E8315 /* first@2x.png */; };
+		13AF22BC1785355F001E8315 /* KZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AF22BB1785355F001E8315 /* KZSecondViewController.m */; };
+		13AF22BE1785355F001E8315 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22BD1785355F001E8315 /* second.png */; };
+		13AF22C01785355F001E8315 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22BF1785355F001E8315 /* second@2x.png */; };
+		13AF22C31785355F001E8315 /* KZFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22C11785355F001E8315 /* KZFirstViewController.xib */; };
+		13AF22C61785355F001E8315 /* KZSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13AF22C41785355F001E8315 /* KZSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13AF22981785355F001E8315 /* GrammarExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AF229B1785355F001E8315 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13AF229D1785355F001E8315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13AF229F1785355F001E8315 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13AF22A31785355F001E8315 /* GrammarExercise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrammarExercise-Info.plist"; sourceTree = "<group>"; };
+		13AF22A51785355F001E8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13AF22A71785355F001E8315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13AF22A91785355F001E8315 /* GrammarExercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrammarExercise-Prefix.pch"; sourceTree = "<group>"; };
+		13AF22AA1785355F001E8315 /* KZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZAppDelegate.h; sourceTree = "<group>"; };
+		13AF22AB1785355F001E8315 /* KZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZAppDelegate.m; sourceTree = "<group>"; };
+		13AF22AD1785355F001E8315 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		13AF22AF1785355F001E8315 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		13AF22B11785355F001E8315 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13AF22B31785355F001E8315 /* KZFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZFirstViewController.h; sourceTree = "<group>"; };
+		13AF22B41785355F001E8315 /* KZFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZFirstViewController.m; sourceTree = "<group>"; };
+		13AF22B61785355F001E8315 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		13AF22B81785355F001E8315 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		13AF22BA1785355F001E8315 /* KZSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZSecondViewController.h; sourceTree = "<group>"; };
+		13AF22BB1785355F001E8315 /* KZSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSecondViewController.m; sourceTree = "<group>"; };
+		13AF22BD1785355F001E8315 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		13AF22BF1785355F001E8315 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		13AF22C21785355F001E8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZFirstViewController.xib; sourceTree = "<group>"; };
+		13AF22C51785355F001E8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AF22951785355F001E8315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF229C1785355F001E8315 /* UIKit.framework in Frameworks */,
+				13AF229E1785355F001E8315 /* Foundation.framework in Frameworks */,
+				13AF22A01785355F001E8315 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AF228F1785355F001E8315 = {
+			isa = PBXGroup;
+			children = (
+				13AF22A11785355F001E8315 /* GrammarExercise */,
+				13AF229A1785355F001E8315 /* Frameworks */,
+				13AF22991785355F001E8315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13AF22991785355F001E8315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AF22981785355F001E8315 /* GrammarExercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AF229A1785355F001E8315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13AF229B1785355F001E8315 /* UIKit.framework */,
+				13AF229D1785355F001E8315 /* Foundation.framework */,
+				13AF229F1785355F001E8315 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13AF22A11785355F001E8315 /* GrammarExercise */ = {
+			isa = PBXGroup;
+			children = (
+				13AF22AA1785355F001E8315 /* KZAppDelegate.h */,
+				13AF22AB1785355F001E8315 /* KZAppDelegate.m */,
+				13AF22B31785355F001E8315 /* KZFirstViewController.h */,
+				13AF22B41785355F001E8315 /* KZFirstViewController.m */,
+				13AF22B61785355F001E8315 /* first.png */,
+				13AF22B81785355F001E8315 /* first@2x.png */,
+				13AF22BA1785355F001E8315 /* KZSecondViewController.h */,
+				13AF22BB1785355F001E8315 /* KZSecondViewController.m */,
+				13AF22BD1785355F001E8315 /* second.png */,
+				13AF22BF1785355F001E8315 /* second@2x.png */,
+				13AF22C11785355F001E8315 /* KZFirstViewController.xib */,
+				13AF22C41785355F001E8315 /* KZSecondViewController.xib */,
+				13AF22A21785355F001E8315 /* Supporting Files */,
+			);
+			path = GrammarExercise;
+			sourceTree = "<group>";
+		};
+		13AF22A21785355F001E8315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13AF22A31785355F001E8315 /* GrammarExercise-Info.plist */,
+				13AF22A41785355F001E8315 /* InfoPlist.strings */,
+				13AF22A71785355F001E8315 /* main.m */,
+				13AF22A91785355F001E8315 /* GrammarExercise-Prefix.pch */,
+				13AF22AD1785355F001E8315 /* Default.png */,
+				13AF22AF1785355F001E8315 /* Default@2x.png */,
+				13AF22B11785355F001E8315 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AF22971785355F001E8315 /* GrammarExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AF22C91785355F001E8315 /* Build configuration list for PBXNativeTarget "GrammarExercise" */;
+			buildPhases = (
+				13AF22941785355F001E8315 /* Sources */,
+				13AF22951785355F001E8315 /* Frameworks */,
+				13AF22961785355F001E8315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrammarExercise;
+			productName = GrammarExercise;
+			productReference = 13AF22981785355F001E8315 /* GrammarExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AF22901785355F001E8315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kylinzhou;
+			};
+			buildConfigurationList = 13AF22931785355F001E8315 /* Build configuration list for PBXProject "GrammarExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13AF228F1785355F001E8315;
+			productRefGroup = 13AF22991785355F001E8315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AF22971785355F001E8315 /* GrammarExercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AF22961785355F001E8315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF22A61785355F001E8315 /* InfoPlist.strings in Resources */,
+				13AF22AE1785355F001E8315 /* Default.png in Resources */,
+				13AF22B01785355F001E8315 /* Default@2x.png in Resources */,
+				13AF22B21785355F001E8315 /* Default-568h@2x.png in Resources */,
+				13AF22B71785355F001E8315 /* first.png in Resources */,
+				13AF22B91785355F001E8315 /* first@2x.png in Resources */,
+				13AF22BE1785355F001E8315 /* second.png in Resources */,
+				13AF22C01785355F001E8315 /* second@2x.png in Resources */,
+				13AF22C31785355F001E8315 /* KZFirstViewController.xib in Resources */,
+				13AF22C61785355F001E8315 /* KZSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AF22941785355F001E8315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF22A81785355F001E8315 /* main.m in Sources */,
+				13AF22AC1785355F001E8315 /* KZAppDelegate.m in Sources */,
+				13AF22B51785355F001E8315 /* KZFirstViewController.m in Sources */,
+				13AF22BC1785355F001E8315 /* KZSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13AF22A41785355F001E8315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AF22A51785355F001E8315 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13AF22C11785355F001E8315 /* KZFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AF22C21785355F001E8315 /* en */,
+			);
+			name = KZFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		13AF22C41785355F001E8315 /* KZSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AF22C51785355F001E8315 /* en */,
+			);
+			name = KZSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13AF22C71785355F001E8315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		13AF22C81785355F001E8315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AF22CA1785355F001E8315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrammarExercise/GrammarExercise-Prefix.pch";
+				INFOPLIST_FILE = "GrammarExercise/GrammarExercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13AF22CB1785355F001E8315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrammarExercise/GrammarExercise-Prefix.pch";
+				INFOPLIST_FILE = "GrammarExercise/GrammarExercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AF22931785355F001E8315 /* Build configuration list for PBXProject "GrammarExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AF22C71785355F001E8315 /* Debug */,
+				13AF22C81785355F001E8315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AF22C91785355F001E8315 /* Build configuration list for PBXNativeTarget "GrammarExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AF22CA1785355F001E8315 /* Debug */,
+				13AF22CB1785355F001E8315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AF22901785355F001E8315 /* Project object */;
+}
