@@ -7,21 +7,38 @@
 //
 
 #import "KZAppDelegate.h"
+#import "DataModel.h"
+#import "HomeViewController.h"
 
-#import "KZFirstViewController.h"
+#import "MistakesViewController.h"
 
-#import "KZSecondViewController.h"
+#import "InfoViewController.h"
+
 
 @implementation KZAppDelegate
 
+@synthesize window = _window;
+
+@synthesize tabBarController = _tabBarController;
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    dispatch_async(dispatch_queue_create ("com.iphonedevblog.post", NULL), ^{ [[DataModel shareDataModel] fetchAllRecords];});
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[KZFirstViewController alloc] initWithNibName:@"KZFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[KZSecondViewController alloc] initWithNibName:@"KZSecondViewController" bundle:nil];
+
+    UIViewController *viewController1 = [[HomeViewController alloc] init];
+    UIViewController *viewController2 = [[MistakesViewController alloc] init];
+    UIViewController *viewController3 = [[InfoViewController alloc] init];
+    
+    UINavigationController *navController1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    UINavigationController *navController2 = [[UINavigationController alloc] initWithRootViewController:viewController2];
+    UINavigationController *navController3 = [[UINavigationController alloc] initWithRootViewController:viewController3];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers =[NSArray arrayWithObjects:navController1, navController2, navController3,nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
